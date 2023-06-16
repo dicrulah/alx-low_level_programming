@@ -8,5 +8,5 @@ int main (void)
         printf("Size of a float: %d byte(s)\n", sizeof(float));
         printf("Size of a double: %d byte(s)\n", sizeof(double));
         printf("Size of unsigned int: %d byte(s)\n", sizeof(unsigned int));
-        return 0;
+        return (0);
 }
