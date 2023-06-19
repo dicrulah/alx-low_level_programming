@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - Prints the alphabet without q and e
  *
  * Return: Always 0 (Success)
  */
@@ -18,5 +18,5 @@ int main(void)
     }
     putchar('\n');
 
-    return 0;
+    return (0);
 }

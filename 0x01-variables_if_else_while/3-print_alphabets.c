@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - Print alphabet.
  *
  * Return: Always 0 (Success)
  */
@@ -22,5 +22,5 @@ int main(void)
 
     putchar('\n');
 
-    return 0;
+    return (0);
 }
