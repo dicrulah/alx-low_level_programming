@@ -1,6 +1,4 @@
 #include <stdio.h>
-
-
 	/**
 	 * main - fibonacci <3
 	 *
@@ -11,6 +9,7 @@
 
 
 	int main(void)
+	/*Fibonacci second */
 	{
 		unsigned long int i;
 		unsigned long int bef = 1;
@@ -51,4 +50,3 @@
 		printf("\n");
 		return (0);
 	}
-

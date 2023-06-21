@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * main - Entry point of the program
  *
- * Return: Always 0.
+ * Return: Always 0
  */
 int main(void)
 {
@@ -14,5 +14,6 @@ int main(void)
     r = print_last_digit(-1024);
     _putchar('0' + r);
     _putchar('\n');
+
     return (0);
 }
