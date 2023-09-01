@@ -1,17 +1,23 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
- * sets the value of a bit to 1 at a given index
- * n is a pointer to the number
- * index to be set to 1
- *
- * return 1 for execution and -1 for not
- */
-int set_bit(unsigned long int *n, unsigned int index)
+ *  * main - check the code
+ *   *
+ *    * Return: Always 0.
+ *     */
+int main(void)
 {
-	if (index > 63)
-		return (-1);
+	    unsigned long int n;
 
-	*n = ((1UL << index) | *n);
-	return (1);
+	        n = 1024;
+		    set_bit(&n, 5);
+		        printf("%lu\n", n);
+			    n = 0;
+			        set_bit(&n, 10);
+				    printf("%lu\n", n);
+				        n = 98;
+					    set_bit(&n, 0);
+					        printf("%lu\n", n);
+						    return (0);
 }

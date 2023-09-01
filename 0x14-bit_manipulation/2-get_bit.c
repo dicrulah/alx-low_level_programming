@@ -3,8 +3,6 @@
 /**
  * returns the value of a bit at a given index.
  * n is the number to search
- * 
- *
  * return the bit
  */
 int get_bit(unsigned long int n, unsigned int index)
@@ -16,5 +14,5 @@ int get_bit(unsigned long int n, unsigned int index)
 
 	bit_value = (n >> index) & 1;
 
-	return (bit_val);
+	return (bit_value);
 }
